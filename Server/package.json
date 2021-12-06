@@ -1,0 +1,35 @@
+{
+  "name": "api_restiful",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alefrodrigues538/API_Restful.git"
+  },
+  "keywords": [
+    "api",
+    "api",
+    "restiful",
+    "nodejs",
+    "mysql"
+  ],
+  "author": "Alef F R Santos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alefrodrigues538/API_Restful/issues"
+  },
+  "homepage": "https://github.com/alefrodrigues538/API_Restful#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql2": "^2.3.3",
+    "nodemailer": "^6.7.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
